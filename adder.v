@@ -6,7 +6,6 @@ module adder(
     input  wire B,
     output wire Y,
     output wire Carry
-
 );
 
     // Enter logic equation here

@@ -4,11 +4,10 @@ module light(
     input  wire downstairs,
     input  wire upstairs,
     output wire stair_light
-
+    
 );
 
     // Enter logic equation here
     assign stair_light = downstairs ^ upstairs;
-
 
 endmodule
